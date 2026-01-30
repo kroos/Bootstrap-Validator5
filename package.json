@@ -1,0 +1,25 @@
+{
+  "name": "bootstrapvalidator5",
+  "version": "1.0.0",
+  "description": "> A modernized, fully working version of the original **BootstrapValidator.js**\r > (originally built for Bootstrap 3 by @nghuuphuoc), now updated and refactored\r > to work seamlessly with **Bootstrap 5.3+** — while still remaining compatible\r > with legacy Bootstrap 3 markup.",
+  "homepage": "https://github.com/kroos/Bootstrap5-Validator#readme",
+  "bugs": {
+    "url": "https://github.com/kroos/Bootstrap5-Validator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kroos/Bootstrap5-Validator.git"
+  },
+  "license": "ISC",
+  "author": "kroos",
+  "type": "commonjs",
+  "main": "bootstrapValidator5.js",
+  "style": "bootstrapValidator5.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "jquery": "^3.6.0",
+    "bootstrap": "^5.3.8"
+  }
+}
