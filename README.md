@@ -1,5 +1,5 @@
 
-# 🧩 Bootstrap Validator (Revived for Bootstrap 5)
+# 🧩 Bootstrap Validator 5 (Revived for Bootstrap 5)
 
 > A modernized, fully working version of the original **BootstrapValidator.js**
 > (originally built for Bootstrap 3 by @nghuuphuoc), now updated and refactored
@@ -18,7 +18,7 @@ documentation and examples eventually disappeared.
 This repository brings it **back to life**, enhanced for **modern web projects**.
 It is a **plain-text, human-readable JavaScript version** that:
 
-- ✅ Works with **Bootstrap 5.3+**, **Bootstrap 4**, and **Bootstrap 3**
+- ✅ Works with **Bootstrap 5.3+**
 - ✅ Keeps all the **original built-in validators** (25+ types)
 - ✅ Adds Bootstrap 5-style feedback classes (`.is-valid` / `.is-invalid`)
 - ✅ Retains legacy `.has-success` / `.has-error` for backward compatibility
@@ -118,19 +118,19 @@ npm install bootstrapvalidator5
 
 then in app.js
 a) webpack / laravel-mix
-``` bash
+``` javascript
 
 require('bootstrapvalidator5');
 
 ````
 and in app.css
-```
+```javascript
 @import 'bootstrapValidator5';
 ```
 
 
 b) Vite
-``` bash
+``` javascript
 
 import  'bootstrapvalidator5';
 
