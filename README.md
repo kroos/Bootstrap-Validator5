@@ -63,6 +63,7 @@ It’s ideal for:
 This repository includes:
 
 - **bootstrapValidator5.js** → The main hybrid plugin
+- **bootstrapValidator5.css** → Styling
 
 
 ---
