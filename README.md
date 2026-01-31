@@ -62,7 +62,7 @@ It’s ideal for:
 
 This repository includes:
 
-- **bootstrapValidator.js** → The main hybrid plugin
+- **bootstrapValidator5.js** → The main hybrid plugin
 
 
 ---
@@ -106,6 +106,35 @@ $('#loginForm').bootstrapValidator({
 </script>
 ```
 
+
+### NPM Installation
+- ensure jQuery is loaded.
+
+```bash
+
+npm install bootstrapvalidator5
+
+```
+
+then in app.js
+a) webpack / laravel-mix
+``` bash
+
+require('bootstrapvalidator5');
+
+````
+and in app.css
+```
+@import 'bootstrapValidator5';
+```
+
+
+b) Vite
+``` bash
+
+import  'bootstrapvalidator5';
+
+```
 ---
 
 🧾 License
